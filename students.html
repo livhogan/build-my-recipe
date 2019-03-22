@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Students</title>
+		<link rel="shortcut icon" href="logo.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
+		<style>
+		body{
+			font-family: 'Pacifico', cursive; 
+		}
+				ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color:	rgb(245, 127, 59);
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: black;
+			  text-align: center;
+			  font-size: 25px;
+			  padding: 20px;
+			  text-decoration: none;
+			}
+
+			li a:hover {
+			  background-color:rgb(211, 211, 211);
+			}
+		
+		* {
+		  box-sizing: border-box;
+		}
+
+		form.example input[type=text] {
+		  padding: 10px;
+		  font-size: 17px;
+		  border: 1px solid grey;
+		  float: left;
+		  width: 80%;
+		  background: #f1f1f1;
+		}
+
+		form.example button {
+		  float: left;
+		  width: 10%;
+		  height: 20%;
+		  padding: 10px;
+		  background: rgb(245, 127, 59);
+		  color: white;
+		  font-size: 20px;
+		  border: 1px solid grey;
+		  border-left: none;
+		  cursor: pointer;
+		}
+
+		form.example button:hover {
+		  background: rgb(211, 211, 211);
+		}
+
+		form.example::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 style="font-size:100px;text-align:center">Students</h1>
+		<ul>
+		  <li><A HREF="main.html">Home</A></li>
+		  <li><A HREF="students.html">Students</A><li>
+		  <li><a href="#vegan">Vegan</a></li>
+		  <li><a href="#vegetarian">Vegetarian</a></li>
+		  <li><A HREF="aboutpage.html">About</A></li>
+		</ul>
+		<br><br><br>
+		<form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
+		  <input type="text" placeholder="Search.." name="search">
+		  <button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	</body>
+</html>
