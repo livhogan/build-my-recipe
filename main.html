@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<title>BMR</title>
 		<link rel="shortcut icon" href="logo.ico" />
@@ -30,7 +31,7 @@
 			  background-color:rgb(211, 211, 211);
 			}
 			+
-			
+
 			* {box-sizing: border-box}
 			body {font-family: 'Pacifico', cursive; margin:0}
 			.mySlides {display: none}
@@ -103,12 +104,12 @@
 			}
 
 			@-webkit-keyframes fade {
-			  from {opacity: .4} 
+			  from {opacity: .4}
 			  to {opacity: 1}
 			}
 
 			@keyframes fade {
-			  from {opacity: .4} 
+			  from {opacity: .4}
 			  to {opacity: 1}
 			}
 
@@ -116,7 +117,7 @@
 			@media only screen and (max-width: 300px) {
 			  .prev, .next,.text {font-size: 11px}
 			}
-			
+
 						* {
 			  box-sizing: border-box;
 			}
@@ -135,11 +136,11 @@
 			  display: table;
 			}
 		</style>
-			
+
 	</head>
-		
+
 	<body>
-		
+
 		<h1 style="font-size:100px;text-align:center">Build My Recipe</h1>
 		<ul>
 		  <li><A HREF="main.html">Home</A></li>
@@ -173,9 +174,9 @@
 		<br>
 
 		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span> 
-		  <span class="dot" onclick="currentSlide(2)"></span> 
-		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 
 		<script>
@@ -194,27 +195,27 @@
 		  var i;
 		  var slides = document.getElementsByClassName("mySlides");
 		  var dots = document.getElementsByClassName("dot");
-		  if (n > slides.length) {slideIndex = 1}    
+		  if (n > slides.length) {slideIndex = 1}
 		  if (n < 1) {slideIndex = slides.length}
 		  for (i = 0; i < slides.length; i++) {
-			  slides[i].style.display = "none";  
+			  slides[i].style.display = "none";
 		  }
 		  for (i = 0; i < dots.length; i++) {
 			  dots[i].className = dots[i].className.replace(" active", "");
 		  }
-		  slides[slideIndex-1].style.display = "block";  
+		  slides[slideIndex-1].style.display = "block";
 		  dots[slideIndex-1].className += " active";
 		}
 		</script>
-		
+
 		<br><br>
-		
+
 				<div class="row">
 		  <div class="column">
-		   <p><a href="https://www.instagram.com/?hl=ro"><img src="insta.png"></a></p> 
+		   <p><a href="https://www.instagram.com/?hl=ro"><img src="insta.png"></a></p>
 		  </div>
 		  <div class="column">
-			<p><a href="https://www.facebook.com/"><img src="fb.png"></a></p> 
+			<p><a href="https://www.facebook.com/"><img src="fb.png"></a></p>
 		  </div>
 		  <div class="column">
 				<p><a href="https://twitter.com/twitter"><img src="twitter.png"></a></p>
