@@ -12,11 +12,12 @@ color: red;
 
 /* Set a background color */
 body {
-  background-color: red;
-  font-family: 'Sacramento', cursive;
+  background-color: white;
+  font-family: 'Pacifico', cursive;
 }
 h1 {
   text-align: center;
+  font-size: 100px;
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
